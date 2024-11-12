@@ -1,0 +1,11 @@
+.custom-border-box {
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid red;      /* Top border: solid */
+    border-right: 4px dashed green; /* Right border: dashed */
+    border-bottom: 3px dotted blue; /* Bottom border: dotted */
+    border-left: 6px double black;  /* Left border: double */
+    padding: 20px;
+    text-align:center;
+    margin: 20px auto;
+}

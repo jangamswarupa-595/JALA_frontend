@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Display Properties</title>
+    <style>
+        .hidden {
+            visibility: hidden;
+        }
+
+        .visible {
+            visibility: visible;
+        }
+
+        .collapsed {
+            visibility: collapse;
+        }
+
+        .display-none {
+            display: none;
+        }
+
+        .display-inline {
+            display: inline;
+        }
+
+        .display-block {
+            display: block;
+        }
+
+        .display-contents {
+            display: contents;
+        }
+
+        .display-list-item {
+            display: list-item;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Visibility and Display Properties</h3>
+
+<p class="hidden">This text is hidden (visibility: hidden).</p>
+<p class="visible">This text is visible (visibility: visible).</p>
+<p class="collapsed">This text is collapsed (visibility: collapse).</p>
+
+<p class="display-none">This text is not displayed (display: none).</p>
+<span class="display-inline">This text is inline (display: inline).</span>
+<p class="display-block">This text is block-level (display: block).</p>
+<p class="display-contents">This text uses display: contents, so it may inherit styles from its parent.</p>
+<ul>
+    <li class="display-list-item">This item is a list item (display: list-item).</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Hover Effect</title>
+    <style>
+        table {
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+            transition: border-color 0.3s;
+        }
+
+        table:hover {
+            border-color: blue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Hover over the table to change its border color</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>25</td>
+    </tr>
+</table>
+
+</body>
+</html>

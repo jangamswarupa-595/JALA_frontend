@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll Page</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .link {
+            display: inline-block;
+            margin: 20px 0;
+        }
+        .content {
+            height: 2000px; /* Makes the page long */
+        }
+    </style>
+</head>
+<body>
+
+<a href="#bottom" class="link">Click to go to the bottom of the page</a>
+<div class="content"></div>
+<a href="#top" id="bottom" class="link">Click to go to the top of the page</a>
+
+</body>
+</html>

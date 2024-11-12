@@ -1,0 +1,8 @@
+/* Set a background color and a background image */
+body {
+    background-color: #e0f7fa;
+    background-image: url("435063.jpg");
+    background-attachment: fixed; /* Image does not scroll with page */
+    background-size: cover;       /* Cover the entire page */
+    background-repeat: no-repeat; /* Prevent tiling */
+}

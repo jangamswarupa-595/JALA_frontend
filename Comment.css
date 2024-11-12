@@ -1,0 +1,8 @@
+/* This CSS block controls the layout and styling of the main content */
+.main-content {
+    width: 80%;
+    margin: auto;
+    /* Center the content */
+    padding: 20px;
+    background-color: #f9f9f9;
+}

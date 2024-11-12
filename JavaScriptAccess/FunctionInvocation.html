@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call and Apply Example</title>
+    <script>
+        function introduce(greeting, punctuation) {
+            console.log(`${greeting}, my name is ${this.name}${punctuation}`);
+        }
+
+        const person1 = { name: "Alice" };
+        const person2 = { name: "Bob" };
+
+        function invokeFunctions() {
+            introduce.call(person1, "Hello", "!"); // Using call
+            introduce.apply(person2, ["Hi", "."]); // Using apply
+        }
+    </script>
+</head>
+<body>
+
+<button onclick="invokeFunctions()">Invoke Functions with call() and apply()</button>
+
+</body>
+</html>

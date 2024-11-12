@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Background Images</title>
+    <style>
+        .multi-bg {
+            height: 500px;
+            background-image: url('background.jpg'), url('assign.jpeg');
+            background-size: 150px 150px, cover;
+            background-position: top left, center;
+            background-repeat: no-repeat, no-repeat;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Section with Multiple Background Images</h2>
+
+<div class="multi-bg">
+    This section has two background images. One is positioned at the top left and the other at the center, covering the entire area.
+</div>
+
+</body>
+</html>
